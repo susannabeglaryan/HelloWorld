@@ -19,4 +19,8 @@ public class HelloBean implements Serializable {
 		this.name = name;
 	}
 
+	public HelloBean() {
+		System.out.println("Worked!");
+	}
+
 }
